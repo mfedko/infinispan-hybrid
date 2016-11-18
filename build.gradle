@@ -13,6 +13,7 @@ repositories {
 dependencies {
 
     compile "org.infinispan:infinispan-embedded:8.2.4.Final"
+//    compile "org.infinispan:infinispan-embedded:7.2.5.Final"
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

@@ -20,6 +20,7 @@ public class HybridCacheTest {
 
     public static void main(String[] args) throws Exception {
 
+//        HybridCluster cluster = new HybridCluster(HybridCluster.JGROUPS_CONFIGURATION_FILE, "clustered"); // for Infinispan 7.2.5
         HybridCluster cluster = new HybridCluster(HybridCluster.JGROUPS_CONFIGURATION_FILE, "cluster");
         EmbeddedCacheManager cacheManager = cluster.getCacheManager();
 
